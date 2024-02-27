@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import '@polymer/paper-input/paper-textarea';
 import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
 import { EditableContentValueAccessor } from '../value-accessor/editable-content.directive';
-import {RatingOptions, RatingPickerComponent} from "custom-form-controls";
+import {RatingOptions, RatingPickerComponent } from 'projects/custom-form-controls/src/public-api';
 
 interface Rating {
   reviewText: string;
